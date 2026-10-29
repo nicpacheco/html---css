@@ -1,0 +1,32 @@
+nexatech/
+│
+├── index.html
+│    ├── Apresentação da NexaTech
+│    ├── Destaque principal
+│    ├── Resumo dos serviços
+│    ├── Chamada para contato
+├── servicos.html
+│    ├── Desenvolvimento de Sites
+│    ├── Sistemas Personalizados
+│    ├── Consultoria em Tecnologia
+│    ├── Explicação mais detalhada de cada serviço
+├── sobre.html
+│    ├── História da NexaTech
+│    ├── Missão
+│    ├── Valores
+│    ├── Estatísticas da empresa
+│    ├── Imagem da equipe        
+├── contato.html
+│    ├── E-mail
+│    ├── Telefone
+│    ├── Localização
+│    ├── Formulário de contato
+│
+├── style.css
+│
+└── imagens/
+    ├── tecnologia.jpg
+    ├── equipe.jpg
+    ├── site.png
+    ├── sistema.png
+    └── consultoria.png

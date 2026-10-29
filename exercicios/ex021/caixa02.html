@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            margin: 0px;
+            background-color: gray;
+        }
+
+        header{
+            background-color: white; 
+            padding: 10px; 
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        nav{
+            background-color: gray;
+            box-shadow: 1px 1px 1px black;
+        }
+
+        nav > a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            margin: 20px;
+            padding: 8px;
+            border-radius: 10px;
+        }
+
+        footer{
+            background-color: black;
+            text-align: center;
+            color: white;
+            padding: 4px;
+        }
+        
+        section{
+            background-color: lightgray;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>   
+    <main>
+        <section id="noticias">
+        <h2>Noticias</h2>
+        <article>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iure repellendus, facilis voluptatum possimus pariatur culpa quod soluta dolores omnis accusantium harum perferendis, nihil modi id, asperiores maxime odio in.</p>
+        </article>
+
+        <h2>Noticias recentes</h2>
+        <article>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi et beatae, cum possimus sed qui mollitia doloremque nihil, reprehenderit voluptatum dolore quod autem nemo dignissimos. Odio consectetur non autem magni.</p>    
+        </article>
+        </section>
+        
+        <section id="redes-sociais">
+        <h2>Nossas redes sociais</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, eum id asperiores minima modi vel deleniti, quis accusantium optio molestiae adipisci non fugit, soluta blanditiis dignissimos possimus ea. Voluptate, sint?</p>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Nícolas Pacheco</p>
+    </footer>
+</body>
+</html>
